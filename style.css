@@ -5,6 +5,16 @@
     list-style-type: none;
     text-decoration: none;
 }
+.Dark{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+.Light{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+}
 .warapper{
     margin: 0 auto;
     max-width: 700px;
