@@ -9,12 +9,12 @@ const ElModeBtn = document.querySelector("#ModeBtn")
 
 ElModeBtn.addEventListener("click", event => {
     if(ElModeBtn.textContent = "Dark"){
-        ElBody.classList.add("Light");
+        ElBody.classList.toggle("Light");
         ElBody.classList.remove("Dark");
         ElModeBtn.textContent = "Light";
     }else if(ElModeBtn.textContent = "Light"){
-        ElBody.classList.add("Dark");
-        ElBody.classList.remove("Light");
+        ElBody.classList.toggle("Dark");
+        ElBody.classList.remove("Light");    
         ElModeBtn.textContent = "Dark";
     }
 })

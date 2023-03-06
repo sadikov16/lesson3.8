@@ -8,12 +8,10 @@
 .Dark{
     background-color: white;
     color: black;
-    border: 3px solid black;
 }
 .Light{
     background-color: black;
     color: white;
-    border: 3px solid white;
 }
 .warapper{
     margin: 0 auto;
@@ -49,4 +47,18 @@
     display: flex;
     padding: 20px 25px;
     border: 3px solid black;
+}
+.second{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+#ModeBtn{
+    width: 100px;
+    margin: 20px auto 0;
+    background-color: gold;
+    border: none;
+    height: 30px;
 }
